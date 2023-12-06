@@ -1,0 +1,22 @@
+:root {
+  --bg-color: #33344b;
+  --overlay-bg-color: rgba(51, 52, 75, 0.9);
+  --light-gray: #aaa;
+  --gray: #777;
+}
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+  border: 0.5px solid var(--light-gray);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--overlay-bg-color);
+  border-radius: 0.25em; /* Add this line */
+  border: 0.5px solid var(--light-gray); /* Add this line */
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color);
+}
